@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Jota98daut/top-restaurant-page/issues"
   },
-  "homepage": "https://github.com/Jota98daut/top-restaurant-page#readme"
+  "homepage": "https://github.com/Jota98daut/top-restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
 }

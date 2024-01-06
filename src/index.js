@@ -36,4 +36,4 @@ function load(component) {
   content.appendChild(component());
 }
 
-load(Menu);
+load(Home);

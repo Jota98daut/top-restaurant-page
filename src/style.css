@@ -14,13 +14,13 @@ body {
       rgba(31, 35, 53, 0.95),
       rgba(31, 35, 53, 0.95)
     ),
-    url("burger-bg.jpg");
+    url("./images/burger-bg.jpg");
   background-size: cover;
 
   color: #c0caf5;
 }
 
-#content {
+#outer-content {
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -57,7 +57,7 @@ body {
   flex-grow: 1;
 }
 
-#home {
+#home, #contact, #menu {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -78,6 +78,10 @@ body {
   text-align: center;
 }
 
+#content {
+  flex-grow: 1;
+}
+
 #welcome > img {
   max-width: 50%;
   border-radius: 50%;
@@ -86,4 +90,25 @@ body {
 #welcome a {
   text-decoration: underline;
   color: #c0caf5;
+}
+
+#product-list {
+  width: 60%;
+  padding: 30px;
+  border: 2px dashed #7aa2f7;
+  border-radius: 30px;
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-list-item {
+  padding: 5px;
+}
+
+.product-list-item p[name="name"] {
+  font-weight: bold;
+  font-style: italic;
 }
